@@ -7,8 +7,8 @@ import org.springframework.web.client.HttpClientErrorException;
 
 public enum Gender {
 
-    MALE("male"),
-    FEMALE("female");
+    MALE("Male"),
+    FEMALE("Female");
 
     private String value;
 

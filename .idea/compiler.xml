@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="GameOfThrone" />
+        <module name="GameOfThroneApi" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="GameOfThrone" options="-parameters" />
+      <module name="GameOfThroneApi" options="-parameters" />
     </option>
   </component>
 </project>
